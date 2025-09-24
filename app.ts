@@ -1,5 +1,8 @@
-import express = require("express");
+import express from "express";
+import articleRoutes from './routes/article.routes.js';
 
-const app = express();
+export const app = express();
+app.use(express.json());
 
-module.exports = app;
+app.use('/api/articles', articleRoutes);
+
