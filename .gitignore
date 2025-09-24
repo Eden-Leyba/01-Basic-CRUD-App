@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+config.env
+
+# Build output
+dist/
+
+# Logs
+logs
+*.log
+
+# OS / editor files
+.DS_Store
+.vscode/
+
+# Optional: ignore coverage reports
+coverage/
